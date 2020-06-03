@@ -35,6 +35,7 @@ The first five traffic stops from each of the locations is shown below:
 ### Pittsburgh
 <div style="text-align:center"><img src="imgs/Pittsburgh_Traffic_stops.png" /></div>
 
+
 To get a sense of the proportion of stops that resulted in police action (e.g., a search was conducted, etc), a table containing the proportion of post-stop outcomes that resulted in a search, citation and/or arrest are shown below:
 
 <div style="text-align:center"><img src="imgs/Stop_Outcomes_Proportions.png" /></div>
