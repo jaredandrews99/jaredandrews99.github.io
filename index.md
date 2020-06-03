@@ -38,7 +38,7 @@ The first five traffic stops from each of the locations is shown below:
 
 Below select the race of either the driver or officer to investigate the outcome rates for the corresponding selection:
 
-<div style="text-align:center"><img src="imgs/interactive.jpg" /></div>
+<iframe id = "iframee" src = "hhttps://infogram.com/photography-1hxj48gp79yr2vg?live" width = 366px height = 290px></iframe>
 
 ## Analysis
 
