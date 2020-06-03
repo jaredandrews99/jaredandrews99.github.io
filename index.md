@@ -35,35 +35,9 @@ The first five traffic stops from each of the locations is shown below:
 ### Pittsburgh
 <div style="text-align:center"><img src="imgs/Pittsburgh_Traffic_stops.png" /></div>
 
+To get a sense of the proportion of stops that resulted in police action (e.g., a search was conducted, etc), a table containing the proportion of post-stop outcomes that resulted in a search, citation and/or arrest are shown below:
 
-Below select the race of either the driver or officer to investigate the outcome rates for the corresponding selection:
-
-<button id = "driver"> driver</button>
-<button id = "officer"> officer</button>
-<br>
-<iframe id = "iframee" src = "https://infogram.com/photography-1hxj48gp79yr2vg?live" width = 366px height = 290px></iframe>
-
-<script>
-   var buttonDriver = document.getElementById("driver");
-   var buttonOfficer = document.getElementById("officer");
-   var iframe = document.getElementById("iframee");
-
-   buttonDriver.addEventListener("click", toggle);
-   buttonOfficer.addEventListener("click", toggle);
-
-   function toggle(e){
-   if(e.target.id == "driver"){
-       iframe.src = "https://infogram.com/photography-1hxj48gp79yr2vg?live"
-   }
-
-
-   else{
-       iframe.src = "https://infogram.com/copy-photography-1h706ekeek9765y?live"
-      }
-   }
-
-</script>
-
+<div style="text-align:center"><img src="imgs/Stop_Outcomes_Proportions.png" /></div>
 
 ## Analysis
 
