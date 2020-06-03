@@ -25,7 +25,31 @@
 
 
 <p>Below select the race of either the driver or officer to investigate the outcome rates for the corresponding selection:</p>
-<div style="text-align:center"><img src="imgs/interactive.jpg" /></div>
+<button id = "driver"> driver</button>
+<button id = "officer"> officer</button>
+<br>
+<iframe id = "iframee" src = "hhttps://infogram.com/photography-1hxj48gp79yr2vg?live" width = 366px height = 290px></iframe>
+
+<script>
+   var buttonDriver = document.getElementById("driver");
+   var buttonOfficer = document.getElementById("officer");
+   var iframe = document.getElementById("iframee");
+
+   buttonDriver.addEventListener("click", toggle);
+   buttonOfficer.addEventListener("click", toggle);
+
+   function toggle(e){
+   if(e.target.id == "driver"){
+       iframe.src = "https://infogram.com/photography-1hxj48gp79yr2vg?live"
+   }
+
+
+   else{
+       iframe.src = "https://infogram.com/copy-photography-1h706ekeek9765y?live"
+      }
+   }
+
+</script>
 
 <h2 id="analysis">Analysis</h2>
 <p>To determine whether the races of drivers and officers involved in a stop are a factor in the officer’s decision to pull a driver over, we will use the Veil of Darkness technique. This technique utilizes natural lighting, or the lack of it, so that researchers can compare the racial distribution of traffic stops made in daylight with that of stops made after dark. If there is an increase in stop rates for a specific officer/race pairing during the daylight, it can be shown that racial bias, as opposed to only racial disparity, exists in the initiation of traffic stops. </p>
