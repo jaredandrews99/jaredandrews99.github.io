@@ -38,7 +38,32 @@ The first five traffic stops from each of the locations is shown below:
 
 Below select the race of either the driver or officer to investigate the outcome rates for the corresponding selection:
 
-<iframe id = "iframee" src = "hhttps://infogram.com/photography-1hxj48gp79yr2vg?live" width = 366px height = 290px></iframe>
+<button id = "driver"> driver</button>
+<button id = "officer"> officer</button>
+<br>
+<iframe id = "iframee" src = "https://infogram.com/photography-1hxj48gp79yr2vg?live" width = 366px height = 290px></iframe>
+
+<script>
+   var buttonDriver = document.getElementById("driver");
+   var buttonOfficer = document.getElementById("officer");
+   var iframe = document.getElementById("iframee");
+
+   buttonDriver.addEventListener("click", toggle);
+   buttonOfficer.addEventListener("click", toggle);
+
+   function toggle(e){
+   if(e.target.id == "driver"){
+       iframe.src = "https://infogram.com/photography-1hxj48gp79yr2vg?live"
+   }
+
+
+   else{
+       iframe.src = "https://infogram.com/copy-photography-1h706ekeek9765y?live"
+      }
+   }
+
+</script>
+
 
 ## Analysis
 
