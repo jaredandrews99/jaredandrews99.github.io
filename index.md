@@ -1,4 +1,3 @@
-# Does Police Officer Race Influence Stop Outcomes?
 
 ## Project Intro
 
